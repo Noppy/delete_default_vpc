@@ -1,7 +1,7 @@
 # NAME
 delete_default_vpc.py : The python tool to delete the default VPC for each region
 # SYNOPSIS
-    usage: delete.vpc.py [-h] [-d] [-w WAIT_TIME] -a ACCESS_KEY_ID -s SECRET_ACCESS_KEY 
+    usage: delete_default_vpc.py [-h] [-d] [-w WAIT_TIME] -a ACCESS_KEY_ID -s SECRET_ACCESS_KEY 
 
 # DESCRIPTION
 - positional arguments:
@@ -27,6 +27,6 @@ clone git repository to a ppropriate folder.
     $ git clone https://github.com/Noppy/delete_default_vpc.git
 
 ## used
-    $ ./delete.vpc.py -a 'AWS_ACCESS_KEY_ID' -s 'AWS_SECRET_KEY_ID'
+    $ ./delete_default_vpc.py -a 'AWS_ACCESS_KEY_ID' -s 'AWS_SECRET_KEY_ID'
 # ATTENTION!! 
 You must promptly delete user access key id and secret key id for security. Because there is some possibility that those keys are maybe logged to os  logs(e.g. command history, /var/log/messages, /var/log/secure...).
