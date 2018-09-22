@@ -23,8 +23,8 @@ delete_default_vpc.py : The python tool to delete the default VPC for each regio
 refer [AWS documents: boto3 QuickStart](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html)
 ### clone this repository
 clone git repository to a ppropriate folder.
-    git clone https://github.com/Noppy/delete_default_vpc.git
+    $ git clone https://github.com/Noppy/delete_default_vpc.git
 ## used
-    ./delete.vpc.py -a 'AWS_ACCESS_KEY_ID' -s 'AWS_SECRET_KEY_ID'
+    $ ./delete.vpc.py -a 'AWS_ACCESS_KEY_ID' -s 'AWS_SECRET_KEY_ID'
 # ATTENTION!! 
 You must promptly delete user access key id and secret key id for security. Because there is some possibility that those keys are maybe logged to os  logs(e.g. command history, /var/log/messages, /var/log/secure...).
