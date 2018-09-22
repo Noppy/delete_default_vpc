@@ -25,9 +25,6 @@ import time
 import boto3
 from botocore.exceptions import ClientError
 
-
-import pprint
-
 # global values
 dry_run = True
 wait_time_second = 180
