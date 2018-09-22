@@ -13,4 +13,12 @@ delete_default_vpc.py : The python tool to delete the default VPC for each regio
     - -d, --dry-run : Dry-Run(Do not change resouces)
     - -w WAIT_TIME, --wait-time WAIT_TIME : Wait time(second) for delete instance and natgw
 # Required environment
-
+- Required Pakages
+    - python 2.7
+    - boto3 (AWS SDK for Python)
+    - git (for setup)
+# Setup
+- install boto3
+    -refer [AWS documents: boto3 QuickStart](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html)
+- clone this repository
+    git clone https://github.com/Noppy/delete_default_vpc.git
