@@ -21,5 +21,4 @@ delete_default_vpc.py : The python tool to delete the default VPC for each regio
 - install boto3
     -refer [AWS documents: boto3 QuickStart](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html)
 - clone this repository
-
     git clone https://github.com/Noppy/delete_default_vpc.git
