@@ -82,7 +82,7 @@ def yes_or_no(s):
         return True
     elif s in ("n", "no", "0", "false", "f"):
         return False
-    raise ValueError, "A yes or no response is required"
+    raise ValueError("A yes or no response is required")
 
 
 def answer(message):
@@ -96,7 +96,7 @@ def answer(message):
             else:
                 ret = False
             break
-        except ValueError, e:
+        except ValueError(e):
             print("ERROR: ", e)
 
     return ret
